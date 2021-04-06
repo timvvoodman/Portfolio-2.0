@@ -5,7 +5,7 @@
   --secondary-blue: #00adb5;
 }
 body {
-  font-family: 'Roboto Condensed' sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 /* NAVBAR */
 
@@ -36,9 +36,79 @@ nav ul li {
   height: 6rem !important;
 }
 
+@media (max-width: 768px) {
+  .navbar-brand {
+    width: 7rem;
+  }
+}
+
 .navbar-nav > li > a.active,
 .navbar-nav > li > a:focus,
 .navbar-nav > li > a:focus,
 .navbar-nav > li > a:hover {
   color: var(--secondary-blue) !important;
+}
+
+/******** Header *******/
+
+.header-wrapper {
+  position: relative;
+  background: url(bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main-info h1 {
+  color: var(--secondary-blue);
+  text-transform: uppercase;
+}
+
+/******** Typed text *******/
+
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+
+@media (max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+
+  .typed-text {
+    font-size: 1.3rem;
+  }
+}
+
+/******** Header Main Button *******/
+.btn-main-offer {
+  border-radius: 0.75rem;
+  background-color: var(--secondary-blue);
+  color: var(--primary-white);
+  text-transform: uppercase;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  margin: 2rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 1), 0 6px 6px rgba(0, 0, 0, 1);
+}
+
+.btn-main-offer:hover {
+  color: var(--primary-white);
+  text-decoration: none;
+  cursor: pointer;
+  transform: scale(0.97);
 }
