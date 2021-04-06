@@ -1,5 +1,5 @@
 import React from 'react'
-import myLogo from '../Tim Woodman.png'
+import myLogo from '../assets/Tim Woodman.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
