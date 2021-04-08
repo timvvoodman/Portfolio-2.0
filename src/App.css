@@ -361,3 +361,29 @@ nav ul li {
     padding: 0 1rem;
   }
 }
+
+/*Custom Footer*/
+.footer {
+  background-color: var(--icon-color);
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 6%;
+  flex-grow: 1;
+}
+
+.footerImage {
+  font-size: xx-large;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+  color: var(--secondary-blue);
+}
+
+.footerImage:hover {
+  transform: translateY(-3px);
+  transition: 0.2s;
+}

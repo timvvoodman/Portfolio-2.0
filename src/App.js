@@ -6,6 +6,7 @@ import AboutMe from './components/AboutMe'
 import Technologies from './components/Technologies'
 import Portfolio from './components/Portfolio'
 import ContactForm from './components/ContactForm'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Technologies />
       <Portfolio />
       <ContactForm />
+      <Footer />
     </>
   )
 }
