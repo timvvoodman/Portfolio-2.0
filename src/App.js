@@ -5,6 +5,8 @@ import Header from './components/Header'
 import AboutMe from './components/AboutMe'
 import Technologies from './components/Technologies'
 import Portfolio from './components/Portfolio'
+import ContactForm from './components/ContactForm'
+
 function App() {
   return (
     <>
@@ -13,6 +15,7 @@ function App() {
       <AboutMe />
       <Technologies />
       <Portfolio />
+      <ContactForm />
     </>
   )
 }

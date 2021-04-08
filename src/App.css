@@ -131,6 +131,7 @@ nav ul li {
 .about-heading {
   text-transform: uppercase;
   text-align: center;
+  color: var(--secondary-blue);
 }
 
 @media (max-width: 468px) {
@@ -197,8 +198,9 @@ nav ul li {
 .portfolio-image {
   width: 15rem;
   height: 10rem;
-  border: 1px solid var(--icon-color);
+  border: 1px solid var(--solid-background);
   padding: 0.5rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3), 0 6px 6px rgba(0, 0, 0, 0.3);
 }
 
 .portfolio-image-box {
@@ -270,5 +272,92 @@ nav ul li {
   }
   .portfolio-image-popup {
     width: 60%;
+  }
+}
+
+/******** Contact Form *******/
+.contacts {
+  background-color: var(--solid-background);
+  padding: 3rem 0;
+}
+
+.contacts h1 {
+  color: var(--primary-white);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  color: var(--primary-white);
+  font-size: 1.2rem;
+  opacity: 60%;
+  font-style: italic;
+}
+
+/******** Inputs *******/
+
+.contacts input,
+.contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid var(--secondary-blue);
+  border-radius: 0;
+  color: var(--primary-white);
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 2.6rem;
+  padding-left: 0 !important;
+}
+
+.contacts .container {
+  padding: 4rem 0;
+}
+
+.contacts input:focus,
+.contacts textarea:focus {
+  background: transparent;
+  color: var(--primary-white);
+  border-bottom: 0.125rem solid var(--secondary-blue);
+}
+
+.contacts textarea {
+  height: 12.4rem !important;
+  margin-bottom: 0;
+}
+
+.contact-btn {
+  width: 30%;
+  border: none !important;
+}
+
+.error-message {
+  position: relative;
+  color: red;
+  font-style: italic;
+  text-align: left;
+  top: -40px;
+}
+
+.success-message {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--secondary-blue);
+}
+
+/*-----Media-----*/
+
+@media (max-width: 768px) {
+  .contacts {
+    overflow-x: hidden;
+  }
+
+  .contacts .container {
+    padding: 0 1rem;
+  }
+  .contacts p {
+    padding: 0 1rem;
   }
 }
