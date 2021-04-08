@@ -4,12 +4,17 @@
   --primary-white: #fff;
   --secondary-blue: #00adb5;
   --solid-background: #404b69;
-  --icon-color: #3a4750;
+  --icon-color: #343a40;
 }
 body {
   font-family: 'Roboto Condensed', sans-serif !important;
 }
 /* NAVBAR */
+
+.navbar {
+  background: var(--icon-color) !important;
+  justify-content: center;
+}
 
 .logo {
   width: 16.25rem;
@@ -98,7 +103,7 @@ nav ul li {
 
 /******** Header Main Button *******/
 .btn-main-offer {
-  border-radius: 0.75rem;
+  border-radius: 0.5rem;
   background-color: var(--secondary-blue);
   color: var(--primary-white);
   text-transform: uppercase;
@@ -386,4 +391,10 @@ nav ul li {
 .footerImage:hover {
   transform: translateY(-3px);
   transition: 0.2s;
+}
+
+@media (max-width: 768px) {
+  .footerImage:hover {
+    transform: scale(0.95);
+  }
 }
