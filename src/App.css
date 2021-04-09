@@ -63,7 +63,7 @@ nav ul li {
   background: url(bg.png) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -247,10 +247,14 @@ nav ul li {
 
 /******** PopupBox *******/
 
+.popupbox-wrapper {
+  margin-top: 7rem;
+}
+
 .portfolio-image-popup {
   width: 45rem;
   padding: 0.5rem;
-  height: 30rem;
+  height: 25rem;
 }
 
 .portfolio-wrapper h1 {

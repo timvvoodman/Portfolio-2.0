@@ -5,7 +5,7 @@ import { faDatabase, faSchool } from '@fortawesome/free-solid-svg-icons'
 
 const Technologies = () => {
   return (
-    <div className="technologies">
+    <div id="technical-skills" className="technologies">
       <h1 className="py-5"> Technical Skills</h1>
       <div className="container">
         <div className="row">
