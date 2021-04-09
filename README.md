@@ -3,10 +3,6 @@
 ![Size](https://img.shields.io/github/repo-size/timvvoodman/Portfolio-2.0)
 ![Language](https://img.shields.io/github/languages/top/timvvoodman/Portfolio-2.0)
 
-## Screenshot / GIF of the application (Demo)
-
-![Demo Screenshot / GIF](Link)
-
 ## Application Description
 
 My wem development portfolio 2.0. Built using React.
