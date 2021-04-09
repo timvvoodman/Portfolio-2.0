@@ -29,7 +29,8 @@ View the application at [Deployed Project Link](Link)
 - Font Awesome
 - react-popupbox
 - react-scroll
-- react -typed
+- react-typed
+- react-hook-forms
 
 ## Contact Information
 

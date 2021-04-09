@@ -99,6 +99,24 @@ nav ul li {
   }
 }
 
+/******** Header Main Button *******/
+.btn-main-offer {
+  border-radius: 0.5rem;
+  background-color: var(--secondary-blue);
+  color: var(--primary-white);
+  text-transform: uppercase;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  margin: 2rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 1), 0 6px 6px rgba(0, 0, 0, 1);
+}
+
+.btn-main-offer:hover {
+  color: var(--primary-white);
+  text-decoration: none;
+  cursor: pointer;
+  transform: scale(0.97);
+}
+
 /******** About ME *******/
 .img-wrapper {
   display: flex;
