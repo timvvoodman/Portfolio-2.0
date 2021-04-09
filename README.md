@@ -5,7 +5,7 @@
 
 ## Application Description
 
-My wem development portfolio 2.0. Built using React.
+My web development portfolio 2.0. Built using React.
 
 ## Table of Contents
 
