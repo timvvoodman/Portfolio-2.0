@@ -252,7 +252,7 @@ nav ul li {
 .portfolio-image-popup {
   width: 45rem;
   padding: 0.5rem;
-  height: 25rem;
+  height: 50vh;
 }
 
 .portfolio-wrapper h1 {
