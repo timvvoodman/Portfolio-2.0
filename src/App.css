@@ -40,7 +40,7 @@ nav ul li {
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
-  height: 6rem !important;
+  height: 5rem !important;
 }
 
 @media (max-width: 768px) {
@@ -247,12 +247,17 @@ nav ul li {
 
 .popupbox-wrapper {
   margin-top: 7rem;
+  width: 65vw;
 }
 
 .portfolio-image-popup {
-  width: 45rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35rem;
   padding: 0.5rem;
   height: 50vh;
+  text-align: center;
 }
 
 .portfolio-wrapper h1 {

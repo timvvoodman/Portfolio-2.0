@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import PoG from '../assets/PlotsofGold.png'
-import CodeQuiz from '../assets/Coding Quiz.png'
+import PoG from '../assets/PlotsofGold.PNG'
+import CodeQuiz from '../assets/Coding Quiz.PNG'
 import ReadingList from '../assets/BookSearch.PNG'
 import WhatToWatch from '../assets/MovieSearch.PNG'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
