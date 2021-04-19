@@ -2,8 +2,8 @@
 import React from 'react'
 import PoG from '../assets/PlotsofGold.png'
 import CodeQuiz from '../assets/Coding Quiz.png'
-import HikerHelper from '../assets/Hiker Helper.png'
-import Scheduler from '../assets/WorkDayScheduler.PNG'
+import ReadingList from '../assets/BookSearch.PNG'
+import WhatToWatch from '../assets/MovieSearch.PNG'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearchPlus } from '@fortawesome/free-solid-svg-icons'
 import { PopupboxManager, PopupboxContainer } from 'react-popupbox'
@@ -99,24 +99,25 @@ const Portfolio = () => {
     fadeInSpeed: 500,
   }
 
-  //Hiker Helper//
-  const openPopupboxHikerHelper = () => {
+  //Reading List//
+  const openPopupboxReadingList = () => {
     const content = (
       <>
         <img
           className="portfolio-image-popup"
-          src={HikerHelper}
-          alt="Hiker Helper"
+          src={ReadingList}
+          alt="Reading List App"
         ></img>
         <p>
-          Tool for travelers looking to find a new trail to hike. Built using
-          jQuery, the Open Weather API, and the Hiking Project API.
+          Search the extensive Google Books Library and Save your favorites to a
+          Reading List which is saved in the database. Remove Books once you've
+          read them
         </p>
         <b>GitHub: </b>
         <a
           className="hyper-link"
           onClick={() =>
-            window.open('https://github.com/timvvoodman/HikerHelper')
+            window.open('https://github.com/timvvoodman/Google-Books-Search')
           }
         >
           Here
@@ -125,7 +126,9 @@ const Portfolio = () => {
         <b>Deployed Project: </b>
         <a
           className="hyper-link"
-          onClick={() => window.open('https://eddiephi.github.io/HikerHelper/')}
+          onClick={() =>
+            window.open('https://tw-google-books-list.herokuapp.com/')
+          }
         >
           Here
         </a>
@@ -135,33 +138,33 @@ const Portfolio = () => {
     PopupboxManager.open({ content })
   }
 
-  const popupboxConfigHikerHelper = {
+  const popupboxConfigReadingList = {
     titleBar: {
       enable: true,
-      text: 'Hiker Helper',
+      text: 'My Reading List',
     },
     fadeIn: true,
     fadeInSpeed: 500,
   }
 
-  //Work Day Scheduler//
-  const openPopupboxScheduler = () => {
+  //What to Watch?//
+  const openPopupboxWhatToWatch = () => {
     const content = (
       <>
         <img
           className="portfolio-image-popup"
-          src={Scheduler}
-          alt="Work Day Scheduler"
+          src={WhatToWatch}
+          alt="What to Watch App"
         ></img>
         <p>
-          Work Day Scheduler built using jQuery, moment.js, and utilizing local
-          storage.
+          Search by movie title and find overviews and ratings from the most
+          popular results. Made using movieDB API, JavaScript, and AJAX.
         </p>
         <b>GitHub: </b>
         <a
           className="hyper-link"
           onClick={() =>
-            window.open('https://github.com/timvvoodman/Day-Planner')
+            window.open('https://github.com/timvvoodman/Movie-Rating-Search')
           }
         >
           Here
@@ -171,7 +174,7 @@ const Portfolio = () => {
         <a
           className="hyper-link"
           onClick={() =>
-            window.open('https://timvvoodman.github.io/Day-Planner/')
+            window.open('https://timvvoodman.github.io/Movie-Rating-Search/')
           }
         >
           Here
@@ -182,7 +185,7 @@ const Portfolio = () => {
     PopupboxManager.open({ content })
   }
 
-  const popupboxConfigScheduler = {
+  const popupboxConfigWhatToWatch = {
     titleBar: {
       enable: true,
       text: 'Work Day Planner',
@@ -214,22 +217,25 @@ const Portfolio = () => {
           {/* - */}
           <div
             className="portfolio-image-box"
-            onClick={openPopupboxHikerHelper}
+            onClick={openPopupboxReadingList}
           >
             <img
               className="portfolio-image"
-              src={HikerHelper}
-              alt="Hiker Helper"
+              src={ReadingList}
+              alt="Reading List App"
             ></img>
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
-          <div className="portfolio-image-box" onClick={openPopupboxScheduler}>
+          <div
+            className="portfolio-image-box"
+            onClick={openPopupboxWhatToWatch}
+          >
             <img
               className="portfolio-image"
-              src={Scheduler}
-              alt="Day Planner"
+              src={WhatToWatch}
+              alt="What to Watch App"
             ></img>
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
@@ -240,8 +246,8 @@ const Portfolio = () => {
       </div>
       <PopupboxContainer {...popupboxConfigPog} />
       <PopupboxContainer {...popupboxConfigCodeQuiz} />
-      <PopupboxContainer {...popupboxConfigHikerHelper} />
-      <PopupboxContainer {...popupboxConfigScheduler} />
+      <PopupboxContainer {...popupboxConfigReadingList} />
+      <PopupboxContainer {...popupboxConfigWhatToWatch} />
     </div>
   )
 }
