@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import PoG from '../assets/PlotsofGold.PNG'
-import CodeQuiz from '../assets/Coding Quiz.PNG'
-import ReadingList from '../assets/BookSearch.PNG'
-import WhatToWatch from '../assets/MovieSearch.PNG'
+import PoG from '../assets/PlotsofGold.png'
+import CodeQuiz from '../assets/Coding Quiz.png'
+import ReadingList from '../assets/BookSearch.png'
+import WhatToWatch from '../assets/MovieSearch.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearchPlus } from '@fortawesome/free-solid-svg-icons'
 import { PopupboxManager, PopupboxContainer } from 'react-popupbox'
@@ -40,16 +40,17 @@ const Portfolio = () => {
       </>
     )
 
-    PopupboxManager.open({ content })
-  }
-
-  const popupboxConfigPog = {
-    titleBar: {
-      enable: true,
-      text: 'Plot of Gold',
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
+    PopupboxManager.open({
+      content,
+      config: {
+        titleBar: {
+          enable: true,
+          text: 'Plot of Gold',
+        },
+        fadeIn: true,
+        fadeInSpeed: 500,
+      },
+    })
   }
 
   //Code Quiz//
@@ -87,16 +88,17 @@ const Portfolio = () => {
       </>
     )
 
-    PopupboxManager.open({ content })
-  }
-
-  const popupboxConfigCodeQuiz = {
-    titleBar: {
-      enable: true,
-      text: 'Code Quiz',
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
+    PopupboxManager.open({
+      content,
+      config: {
+        titleBar: {
+          enable: true,
+          text: 'Code Quiz',
+        },
+        fadeIn: true,
+        fadeInSpeed: 500,
+      },
+    })
   }
 
   //Reading List//
@@ -135,16 +137,17 @@ const Portfolio = () => {
       </>
     )
 
-    PopupboxManager.open({ content })
-  }
-
-  const popupboxConfigReadingList = {
-    titleBar: {
-      enable: true,
-      text: 'My Reading List',
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
+    PopupboxManager.open({
+      content,
+      config: {
+        titleBar: {
+          enable: true,
+          text: 'Reading List',
+        },
+        fadeIn: true,
+        fadeInSpeed: 500,
+      },
+    })
   }
 
   //What to Watch?//
@@ -182,16 +185,17 @@ const Portfolio = () => {
       </>
     )
 
-    PopupboxManager.open({ content })
-  }
-
-  const popupboxConfigWhatToWatch = {
-    titleBar: {
-      enable: true,
-      text: 'Work Day Planner',
-    },
-    fadeIn: true,
-    fadeInSpeed: 500,
+    PopupboxManager.open({
+      content,
+      config: {
+        titleBar: {
+          enable: true,
+          text: 'Movie Search',
+        },
+        fadeIn: true,
+        fadeInSpeed: 500,
+      },
+    })
   }
 
   return (
@@ -244,10 +248,10 @@ const Portfolio = () => {
           {/* - */}
         </div>
       </div>
-      <PopupboxContainer {...popupboxConfigPog} />
-      <PopupboxContainer {...popupboxConfigCodeQuiz} />
-      <PopupboxContainer {...popupboxConfigReadingList} />
-      <PopupboxContainer {...popupboxConfigWhatToWatch} />
+      <PopupboxContainer />
+      <PopupboxContainer />
+      <PopupboxContainer />
+      <PopupboxContainer />
     </div>
   )
 }
