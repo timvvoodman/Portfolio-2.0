@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio-2.0/static/css/main.bb5c2160.chunk.css",
-    "main.js": "/Portfolio-2.0/static/js/main.37ee0b46.chunk.js",
-    "main.js.map": "/Portfolio-2.0/static/js/main.37ee0b46.chunk.js.map",
+    "main.css": "/Portfolio-2.0/static/css/main.fc80f9d9.chunk.css",
+    "main.js": "/Portfolio-2.0/static/js/main.d1e999f0.chunk.js",
+    "main.js.map": "/Portfolio-2.0/static/js/main.d1e999f0.chunk.js.map",
     "runtime-main.js": "/Portfolio-2.0/static/js/runtime-main.6076ab0d.js",
     "runtime-main.js.map": "/Portfolio-2.0/static/js/runtime-main.6076ab0d.js.map",
     "static/css/2.301e199a.chunk.css": "/Portfolio-2.0/static/css/2.301e199a.chunk.css",
@@ -12,21 +12,21 @@
     "static/js/3.e311aee8.chunk.js.map": "/Portfolio-2.0/static/js/3.e311aee8.chunk.js.map",
     "index.html": "/Portfolio-2.0/index.html",
     "static/css/2.301e199a.chunk.css.map": "/Portfolio-2.0/static/css/2.301e199a.chunk.css.map",
-    "static/css/main.bb5c2160.chunk.css.map": "/Portfolio-2.0/static/css/main.bb5c2160.chunk.css.map",
+    "static/css/main.fc80f9d9.chunk.css.map": "/Portfolio-2.0/static/css/main.fc80f9d9.chunk.css.map",
     "static/js/2.a554eac8.chunk.js.LICENSE.txt": "/Portfolio-2.0/static/js/2.a554eac8.chunk.js.LICENSE.txt",
+    "static/media/BookSearch.749a479a.PNG": "/Portfolio-2.0/static/media/BookSearch.749a479a.PNG",
     "static/media/Coding Quiz.9e91b24a.png": "/Portfolio-2.0/static/media/Coding Quiz.9e91b24a.png",
     "static/media/Full Stack Software Engineer _ Timothy Woodman.48bb4aa6.pdf": "/Portfolio-2.0/static/media/Full Stack Software Engineer _ Timothy Woodman.48bb4aa6.pdf",
-    "static/media/Hiker Helper.e9df5ed8.png": "/Portfolio-2.0/static/media/Hiker Helper.e9df5ed8.png",
+    "static/media/MovieSearch.35916af4.PNG": "/Portfolio-2.0/static/media/MovieSearch.35916af4.PNG",
     "static/media/PlotsofGold.c3d87ab9.png": "/Portfolio-2.0/static/media/PlotsofGold.c3d87ab9.png",
     "static/media/Prof Pic.89c2d843.jpg": "/Portfolio-2.0/static/media/Prof Pic.89c2d843.jpg",
-    "static/media/WorkDayScheduler.7fb173c8.PNG": "/Portfolio-2.0/static/media/WorkDayScheduler.7fb173c8.PNG",
     "static/media/App.css": "/Portfolio-2.0/static/media/bg.2a91d2f5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6076ab0d.js",
     "static/css/2.301e199a.chunk.css",
     "static/js/2.a554eac8.chunk.js",
-    "static/css/main.bb5c2160.chunk.css",
-    "static/js/main.37ee0b46.chunk.js"
+    "static/css/main.fc80f9d9.chunk.css",
+    "static/js/main.d1e999f0.chunk.js"
   ]
 }
