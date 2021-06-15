@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import PoG from '../assets/PlotsofGold.png'
-import CodeQuiz from '../assets/Coding Quiz.png'
+import Bamazon from '../assets/Bamazon.PNG'
 import ReadingList from '../assets/BookSearch.png'
 import WhatToWatch from '../assets/MovieSearch.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -54,24 +54,22 @@ const Portfolio = () => {
   }
 
   //Code Quiz//
-  const openPopupboxCodeQuiz = () => {
+  const openPopupboxBamazon = () => {
     const content = (
       <>
         <img
           className="portfolio-image-popup"
-          src={CodeQuiz}
-          alt="Code Quiz"
+          src={Bamazon}
+          alt="Bamazon"
         ></img>
         <p>
-          Short multiple choice quiz on a timer that shows and saves high
-          scores. An early project I buit using vanilla JavaScript.
+          Full Stack ecommerce Amazon clone with cart, checkout, payment, and
+          order history.
         </p>
         <b>GitHub: </b>
         <a
           className="hyper-link"
-          onClick={() =>
-            window.open('https://github.com/timvvoodman/Coding-Quiz')
-          }
+          onClick={() => window.open('https://github.com/timvvoodman/Bamazon')}
         >
           Here
         </a>
@@ -79,9 +77,7 @@ const Portfolio = () => {
         <b>Deployed Project: </b>
         <a
           className="hyper-link"
-          onClick={() =>
-            window.open('https://timvvoodman.github.io/Coding-Quiz/')
-          }
+          onClick={() => window.open('https://b-15da6.web.app/')}
         >
           Here
         </a>
@@ -93,7 +89,7 @@ const Portfolio = () => {
       config: {
         titleBar: {
           enable: true,
-          text: 'Code Quiz',
+          text: 'Bamazon',
         },
         fadeIn: true,
         fadeInSpeed: 500,
@@ -209,10 +205,10 @@ const Portfolio = () => {
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
-          <div className="portfolio-image-box" onClick={openPopupboxCodeQuiz}>
+          <div className="portfolio-image-box" onClick={openPopupboxBamazon}>
             <img
               className="portfolio-image"
-              src={CodeQuiz}
+              src={Bamazon}
               alt="code Quiz"
             ></img>
             <div className="overflow"></div>
